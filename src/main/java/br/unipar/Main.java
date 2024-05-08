@@ -6,13 +6,11 @@ public class Main {
 
         ContaCorrente contaCorrente = new ContaCorrente();
 
-            contaCorrente.depositar(valor:1000d)
+            contaCorrente.depositar(1000d);
 
-        System.out.println("Saldo  é:);
+        System.out.println("Saldo  é:" + contaCorrente.obterSaldo());
 
-
-
-
+        System.out.println("Numero da conta é" + contaCorrente.retornarNumeroConta());
 
 
     }

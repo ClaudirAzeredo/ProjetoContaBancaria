@@ -2,9 +2,7 @@ package br.unipar;
 
 public interface InterfaceContaBancaria {
 
-    Double obterSaldo(Double valor);
-
-    void depositar();
+    Double obterSaldo();
 
     void depositar(Double valor);
 

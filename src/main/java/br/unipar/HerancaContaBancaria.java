@@ -4,7 +4,7 @@ import java.util.UUID;
 
 abstract class HerancaContaBancaria implements InterfaceContaBancaria {
 
-private Double saldo;
+protected Double saldo;
 
 private String numeroConta;
 
@@ -15,8 +15,7 @@ public HerancaContaBancaria(){
 
 }
 
-    @Override
-    public Double obterSaldo(Double valor) {
+    public Double obterSaldo() {
         return saldo;
     }
 

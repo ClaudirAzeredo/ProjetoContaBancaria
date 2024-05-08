@@ -1,10 +1,10 @@
 package br.unipar;
 
-public abstract class ContaCorrente extends HerancaContaBancaria {
+public class ContaCorrente extends HerancaContaBancaria {
 
 
     @Override
-    public Boolean saque(Double Valor) {
+    public Boolean saque(Double valor) {
 
         if (saldo >= valor ){
             saldo -= valor;
