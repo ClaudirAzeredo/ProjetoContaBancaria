@@ -4,13 +4,12 @@ public class ContaCorrente extends HerancaContaBancaria {
 
 
     @Override
-    public Boolean saque(Double valor) {
+    public boolean saque(double valor) {
 
-        if (saldo >= valor ){
+        if (saldo >= valor) {
             saldo -= valor;
             return true;
         }
-
 
         return false;
     }

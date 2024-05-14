@@ -4,11 +4,11 @@ public interface InterfaceContaBancaria {
 
     Double obterSaldo();
 
-    void depositar(Double valor);
+    void depositar(double valor);
 
     String retornarNumeroConta();
 
-    Boolean saque(Double Valor);
+    boolean saque(double Valor);
 
 
 
